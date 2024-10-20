@@ -42,8 +42,7 @@ public class GrowthTrends {
         for (int i = 0; i < numElements; i++) {
             growthPercentages[i] = scanner.nextInt();
         }
-
-        // Call the function to square and sort the growth percentages
+        
         int[] result = squareAndSortGrowthPercentages(growthPercentages);
 
         System.out.println("Sorted squared growth percentages: " + Arrays.toString(result));
